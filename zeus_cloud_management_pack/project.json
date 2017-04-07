@@ -1,1 +1,56 @@
-{"guid":"zeus_cloud_management_pack","repository":{"type":"git","branch":"master","url":"https://github.com/dirigiblelabs/zeus_cloud_management_pack.git"}}
+{
+    "guid":"zeus_cloud_management_pack",
+    "repository":{
+        "type":"git",
+        "branch":"master",
+        "url":"https://github.com/dirigiblelabs/zeus_cloud_management_pack.git"
+    },
+    "dependencies": [
+        {
+            "guid":"zeus_cockpit",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_cockpit.git",
+            "branch":"master"
+        }, {
+            "guid":"zeus_clusters",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_clusters.git",
+            "branch":"master"
+        }, {
+            "guid":"zeus_landscapes",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_landscapes.git",
+            "branch":"master"
+        }, {
+            "guid":"zeus_templates",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_templates.git",
+            "branch":"master"
+        }, {
+            "guid":"zeus_deployer",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_deployer.git",
+            "branch":"master"
+        }, {
+            "guid":"zeus_code",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_code.git",
+            "branch":"master"
+        }, {
+            "guid":"databases",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_databases.git",
+            "branch":"master"
+        }, {
+            "guid":"services",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_services.git",
+            "branch":"master"
+        }, {
+            "guid":"sites",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/zeus_sites.git",
+            "branch":"master"
+        }
+    ]
+}
